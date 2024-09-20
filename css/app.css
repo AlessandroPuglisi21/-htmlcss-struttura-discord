@@ -1,6 +1,43 @@
 /* RESET */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+body{
+	background-color: #ffffff;
+}
+/* DEBUG RULES */
+.debug{
+    border: solid 1px;
+    border-style:dashed ;
+}
+
+.main-header{
+    padding: 12px 80px;
+    background-color: aquamarine;
+    
+}
+.navbar{
+    display: flex;
+    background-color: rgb(95, 95, 95);
+    justify-content: space-between;
+    align-items:center;
+   
+    
+}
+.main-menu{
+    flex-wrap: wrap;
+    display:flex;
+    gap: 10px;
 }
