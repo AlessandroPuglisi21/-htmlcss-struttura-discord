@@ -42,7 +42,6 @@ body{
     gap: 10px;
 }
 .layout-1 .container{
-    background-color: blue;
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -50,5 +49,22 @@ body{
 }
 .col-100{
     width:100%;
+}
+.bg-blue{
+    background-color: blue;
+
+}
+.bg-black {
     background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.bg-green {
+    background-color: green;
+}
+.row{
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    height: 300px;
 }
