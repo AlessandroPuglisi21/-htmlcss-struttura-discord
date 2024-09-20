@@ -62,7 +62,10 @@ body{
     border-style: dashed;
 
 }
+.layout-4 .container{
+    height:700px;
 
+}
 .col-100{
     width:100%;
 }
@@ -92,6 +95,14 @@ body{
 .bg-white{
     background-color: #ffffff;
 }
+.bg-grey{
+    background-color:rgb(194, 182, 182);
+}
+.bg-green{
+    background-color: green;
+    height:600px;
+    margin-bottom: 100px;
+}
 .row{
     width: 800px;
     margin: auto;
@@ -100,11 +111,4 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.row .two{
-    width: 800px;
-    margin: auto;
-    margin-top: 60px;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
+
