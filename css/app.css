@@ -55,6 +55,14 @@ body{
     border-style: dashed;
 
 }
+.layout-3 .container{
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    border-style: dashed;
+
+}
+
 .col-100{
     width:100%;
 }
@@ -64,7 +72,6 @@ body{
 }
 .bg-black {
     background-color: rgb(0, 0, 0);
-    height: 100%;
     border-radius: 20px;
 }
 
@@ -76,13 +83,14 @@ body{
 }
 .bg-corn{
     background-color: cornflowerblue;
-    height: 100%%;
     width: 40%;
 }
 .bg-red{
     background-color: red;
-    height: 100%%;
     width: 60%;
+}
+.bg-white{
+    background-color: #ffffff;
 }
 .row{
     width: 800px;
@@ -92,4 +100,11 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
+.row .two{
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
