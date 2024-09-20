@@ -66,8 +66,21 @@ body{
     height:700px;
 
 }
+.layout-5 .container{
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    border-style: dashed;
+
+}
 .col-100{
     width:100%;
+}
+.col-34{
+    width:calc((100%/6)*2);
+}
+.col-17{
+    width:calc(100%/6) ;
 }
 .bg-blue{
     background-color: blue;
@@ -102,6 +115,15 @@ body{
     background-color: green;
     height:600px;
     margin-bottom: 100px;
+}
+.bg-dark{
+    background-color:rgb(33, 41, 49);
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-violet{
+    background-color: blueviolet;
 }
 .row{
     width: 800px;
